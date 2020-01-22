@@ -2,7 +2,7 @@
 <?
 
 define('LINE_API',"https://notify-api.line.me/api/notify");
-$token = "MPR5x71AFdRsOCoGxiHG5mMwdzjwsRLzxg8Up3I6O5Z";
+$token = "MPR5x71AFdRsOCoGxiH";
 $str = "มีรายการสั่งซื้อ กรุณาเช็ค อีเมลล์ครับ";
 $res = notify_message($str,$token);
 
